@@ -4,7 +4,7 @@ loadingIndicator.textContent = "Loading...";
 loadingIndicator.style.display = "none";
 document.querySelector(".container").appendChild(loadingIndicator);
 
-const API_KEY = "NY44DVQANYUW5A4M";
+const API_KEY = "";
 const API_URL = "https://www.alphavantage.co/query";
 const form = document.getElementById("crypto-form");
 const cryptoList = document.getElementById("crypto-list");
